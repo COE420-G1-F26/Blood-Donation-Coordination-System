@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ## Member Skills
 
 * Fadil Imran Pasha: System design, Object Oriented Design, Programming
@@ -6,8 +6,6 @@
 * Shawky Ahmad:
 * Sidrah Abdulrahman: Programming, web development, and more soon...
 
-=======
-<<<<<<< HEAD
 ....................................
 .......... Team Skills .............
 ....................................
@@ -28,16 +26,14 @@ skills:
 
 == Team member 3 ==============  
 name:       Sidrah Abdulrahman  
-skills:  
+skills:
 * Programming
 * web development
 * and more soon...
 
-
 == Team member 4 ==============  
 name:       Shawky Elhindawy  
-skills: 
-* prompt engineering 
+skills:
+* prompt engineering
 * database management
 * team leadership
->>>>>>> 524aa87baae43d91dfedac73944a37ab1967a5aa
