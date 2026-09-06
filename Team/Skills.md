@@ -24,5 +24,7 @@ skills:
 
 == Team member 4 ==============
 name:       Shawky Elhindawy
-skills:
-* 
+skills: 
+* prompt engineering 
+* database management
+* team leadership
