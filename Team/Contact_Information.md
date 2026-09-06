@@ -1,5 +1,5 @@
 Team Contact Information: 
-________Name ______ | ______Contact ______
+________ Name ______ | ______Contact ______
  Maha Alsarkal      |   G00101590@aus.edu
  Fadil Imran Pasha  |   B00101050@aus.edu
  Sidrah Abdulrahman |   G00103017@aus.edu
