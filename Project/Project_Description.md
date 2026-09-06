@@ -1,0 +1,4 @@
+## Blood donation drive and inventory system
+
+The system will handle donor registration, donor eligiblity screening, donation drive scheduling, and inventory management.
+It will simplify thr blood donation and retrieval process by centralizing it in a single system. We will be able to process donations and blood retrievals to hospitals in a single system. This allows for a centralized tracking system that is visible to all hospitals and clinics in an area or an entity. Donation drive organizers and medical centers can organize donation drives through the system while donors will be able to register themselves using the same system. We will be able to screen for eligibility based on access to donor health data. Hospitals can also track blood stocks and retrieve using the system.

@@ -1,20 +1,25 @@
-## Team Members
-### Fadil Imran Pasha
-- Student ID: b00101050
-- Major: Computer Engineering
-- Username: FadilImran
 
-### Maha AlSerkal
-- Student ID: g00101590@aus.edu
-- Major: Computer Science
-- Username: g00101590-png
+## Team Members ............
+**== Team member 1 ==============**   
+name:       Maha Alsarkal  
+stuID:      g00101590  
+major:      Computer Science  
+usrname:    MahaDeer  
 
-### Shawky Ahmed
-- Student ID: b00100077
-- Major: Computer Science
-- Username: Shawky-Ahmad
+**== Team member 2 ==============**  
+name:       Fadil Imran Pasha  
+stuID:      b00101050  
+major:      Computer Engineering  
+usrname:    FadilImran
 
-### Sidrah Abdulrahman
-- Student ID: g00103017
-- Major: Computer Science
-- Username: SidrahKatze
+**== Team member 3 ==============**  
+name:       Sidrah Abdulrahman  
+stuID:      g00103017  
+major:      Computer Science  
+usrname:    SidrahKatze   
+
+**== Team member 4 ==============**  
+name:       Shawky Elhindawy  
+stuID:      b00100077  
+major:      Computer Science  
+usrname:    Shawky   
