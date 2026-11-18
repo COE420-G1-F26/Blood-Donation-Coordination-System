@@ -1,0 +1,11 @@
+# Selected Architecture Style: Client - Server Architecture 
+
+## Characteristics
+The client server architecture involves two subsystems with one acting as the client and the other as the server. The subsystem acting as a client requests services from the subsystem acting as a server. The main benefit of choosing this model is that it ensures data integrity since most of the data and backend processing stay on the server. Therefore, it is preferred if we want to ensure data integrity. It is also suitable when we have an architecture where multiple components are requesting services from one central or main component.
+
+## Reasons for Selection
+Our project involves a central inventory node and many blood bank or donation drive nodes that request services from it. So it is intuitive to model the inventory as a server and the blood banks and donation drives as clients. Of course the model will not be exactly applicable as donation drives provide some services to the inventory as well, but it is a good model when this is accounted for. Data integrity and availability is a high priority goal for us, so this style is more suitable as data will stay on the inventory server and all client nodes will interact with it through the server; system data is not distributed across servers. Modularity and maintainability is a medium priority goal. This is also satisfied as  we can have client components communicate with the server component through an interface. So all components can be loosely coupled as they are designed by functionality like Blood bank component, donation drive component, etc. We can define an interface for communication between clients and server so changing one component doesn't necessitate a change in other components.
+
+## Main Advantages and Limitations
+- Advantages: Data and heavy computations stay in one place so easy to scale as we can just have more powerful computing nodes for server. It is also easier to ensure data integrity as we don't have to coordinate writes between multiple nodes.
+- Limitations: There will be heavy load on the central server so a powerful computing node will be needed for it. Server also acts as single point of failure in the system as no other component can provide the same services to other clients.
