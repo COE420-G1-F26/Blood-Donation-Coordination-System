@@ -1,0 +1,77 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="-EsFXBeVf7DeK2ncTkZ2">
+    <mxGraphModel dx="1414" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iayjmE7nMR1EHe_INdeT-28" parent="1" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" value="Send Blood Activity Diagram" vertex="1">
+          <mxGeometry height="750" width="630" x="130" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iayjmE7nMR1EHe_INdeT-29" parent="iayjmE7nMR1EHe_INdeT-28" style="swimlane;startSize=20;html=1;" value="BloodRequest" vertex="1">
+          <mxGeometry height="730" width="210" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iayjmE7nMR1EHe_INdeT-32" edge="1" parent="iayjmE7nMR1EHe_INdeT-29" source="iayjmE7nMR1EHe_INdeT-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="iayjmE7nMR1EHe_INdeT-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iayjmE7nMR1EHe_INdeT-33" parent="iayjmE7nMR1EHe_INdeT-29" style="ellipse;fillColor=strokeColor;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="80" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iayjmE7nMR1EHe_INdeT-34" parent="iayjmE7nMR1EHe_INdeT-29" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" value="Recieve Blood Request" vertex="1">
+          <mxGeometry height="60" width="145" x="22.5" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="iayjmE7nMR1EHe_INdeT-43" parent="iayjmE7nMR1EHe_INdeT-29" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" value="Send Notification" vertex="1">
+          <mxGeometry height="70" width="140" x="22.5" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="iayjmE7nMR1EHe_INdeT-30" parent="iayjmE7nMR1EHe_INdeT-28" style="swimlane;startSize=20;html=1;" value="Inventory" vertex="1">
+          <mxGeometry height="730" width="220" x="210" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iayjmE7nMR1EHe_INdeT-42" edge="1" parent="iayjmE7nMR1EHe_INdeT-30" source="iayjmE7nMR1EHe_INdeT-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="iayjmE7nMR1EHe_INdeT-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iayjmE7nMR1EHe_INdeT-38" parent="iayjmE7nMR1EHe_INdeT-30" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" value="Get Available Blood Types" vertex="1">
+          <mxGeometry height="70" width="130" x="40" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="iayjmE7nMR1EHe_INdeT-41" parent="iayjmE7nMR1EHe_INdeT-30" style="rhombus;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="90" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="iayjmE7nMR1EHe_INdeT-31" parent="iayjmE7nMR1EHe_INdeT-28" style="swimlane;startSize=20;html=1;" value="Transaction" vertex="1">
+          <mxGeometry height="730" width="200" x="430" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iayjmE7nMR1EHe_INdeT-54" edge="1" parent="iayjmE7nMR1EHe_INdeT-31" source="iayjmE7nMR1EHe_INdeT-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="iayjmE7nMR1EHe_INdeT-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iayjmE7nMR1EHe_INdeT-48" parent="iayjmE7nMR1EHe_INdeT-31" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" value="Initiate Transaction" vertex="1">
+          <mxGeometry height="70" width="145" x="30" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="iayjmE7nMR1EHe_INdeT-51" edge="1" parent="iayjmE7nMR1EHe_INdeT-31" source="iayjmE7nMR1EHe_INdeT-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="iayjmE7nMR1EHe_INdeT-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iayjmE7nMR1EHe_INdeT-52" parent="iayjmE7nMR1EHe_INdeT-31" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" value="Send Request Blood Amount" vertex="1">
+          <mxGeometry height="70" width="140" x="32.5" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="iayjmE7nMR1EHe_INdeT-53" parent="iayjmE7nMR1EHe_INdeT-31" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="87.5" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="iayjmE7nMR1EHe_INdeT-44" edge="1" parent="iayjmE7nMR1EHe_INdeT-28" source="iayjmE7nMR1EHe_INdeT-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="iayjmE7nMR1EHe_INdeT-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iayjmE7nMR1EHe_INdeT-46" edge="1" parent="iayjmE7nMR1EHe_INdeT-28" source="iayjmE7nMR1EHe_INdeT-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="iayjmE7nMR1EHe_INdeT-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iayjmE7nMR1EHe_INdeT-47" connectable="0" parent="iayjmE7nMR1EHe_INdeT-46" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="[not Available]" vertex="1">
+          <mxGeometry relative="1" x="-0.0021" y="-9" as="geometry">
+            <mxPoint x="-29" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iayjmE7nMR1EHe_INdeT-49" edge="1" parent="iayjmE7nMR1EHe_INdeT-28" source="iayjmE7nMR1EHe_INdeT-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="iayjmE7nMR1EHe_INdeT-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iayjmE7nMR1EHe_INdeT-50" connectable="0" parent="iayjmE7nMR1EHe_INdeT-49" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="[Available]" vertex="1">
+          <mxGeometry relative="1" x="-0.5284" y="9" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
